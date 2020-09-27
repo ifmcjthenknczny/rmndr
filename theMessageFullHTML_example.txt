@@ -1,0 +1,22 @@
+"""<html>
+<head></head>
+<body>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drodzy państwo,<br>
+Uprzejmie przypominamy o nadchodzącym końcu ważności wykonanej przez nas usługi. Wykonaliśmy ją {data} r. i jest ważna {ile}.<br>
+<br>
+Z poważaniem,<br>
+Grzegorz Brzęczyszczykiewicz<br>
+Specjalista ds. zadań specjalnych<br>
+<br>
+--------------------------------------------<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="cid:{image_cid}" alt="Lorem Ipsum" width="186" height="64"><br>
+<br>
+<p style="font-family:"Trebuchet MS"">
+&nbsp;&nbsp;&nbsp;ul. Szczebrzeszyńska 22A, 60-315 Chrząszczyrzewoszyce (powiat Łękołody)<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;tel: 00 000 00 00, 000 000 000<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.example.com" target="_blank" rel="noopener">www.example.com</a></p>
+</body>
+</html>"""

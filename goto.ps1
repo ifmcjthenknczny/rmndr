@@ -1,0 +1,1 @@
+cd ..; cd ../users/mcj/dropbox/py/rmndr; python main.py

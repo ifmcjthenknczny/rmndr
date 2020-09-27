@@ -1,0 +1,9 @@
+#TODO:
+#rzeczy które się powtarzają nie robić w pętli ?
+#nazwy zmiennych
+#te fragmenty kodu które są dopasowane do kwant-lab dać w osobnej funkcji
+#login i hasło z cmd?
+#możnaby zrobić obliczanie due_date, sortowanie i queue po tym
+#tytuły kolumn w csv
+#path do sent_mails
+#setup file

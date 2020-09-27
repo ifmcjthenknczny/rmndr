@@ -1,0 +1,15 @@
+	Szanowni państwo,
+Przypominamy o zbliżającym się terminie wykonania ponownych badań pola elektromagnetycznego. Ostatnie badania zostały wykonane {data} i ich ważność wynosi {ile}
+
+Z poważaniem,
+Maciej Konieczny
+
+--------------------------------------------
+
+                KWANT-LAB
+
+   ul. Pokrzywno 4, 61-315 Poznań
+
+    tel: 61 624 74 69, 530 569 530
+
+              www.kwant-lab.pl
