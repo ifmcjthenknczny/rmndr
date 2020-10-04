@@ -12,7 +12,7 @@ rmndr
 * [Contact](#contact)
 
 ## General info
-This is a simple app which sends e-mails to addresses in database after specified amount of time (in years) after specified moment in time. It is designed for small databases that are used by small companies, and its main purpose and intention is to remind customers to repeat an order.
+This is a simple app which sends e-mails to addresses in database after specified amount of time (given in years). It is designed for small databases that are used by small companies, and its main purpose and intention is to remind customers to repeat an order.
 
 ## Screenshots
 ![App in use](./screenshot.png)
