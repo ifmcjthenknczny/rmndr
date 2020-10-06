@@ -127,15 +127,16 @@ dmypy.json
 # IntelliJ
 .idea/
 
-# Test databases
-*.csv
+# Backup example databases
+database_backup.csv
 
 # Personal info
-logo.png
-SETTINGS.py
-theMessageFullHTML.txt
-theMessagePlainText.txt
+logo_kwant.png
+SETTINGS_kwant.py
+theMessageFullHTML_kwant.txt
+theMessagePlainText_kwant.txt
 
 # Development
 mailexample.py
 queue.py
+TODO.txt

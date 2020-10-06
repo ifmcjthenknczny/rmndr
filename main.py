@@ -10,6 +10,11 @@ from email.message import EmailMessage
 from email.utils import make_msgid
 from getpass import getpass
 
+def install():
+    command = "cd ~; cd ./"+SETTINGS.RELATIVE_PATH_TO_MAIN_PY_FOLDER+"; python main.py"
+    with open('goto.ps1','w') as file:
+        file.writelines(command)
+
 def enter_password():
     string = "Enter password for "+SETTINGS.LOGIN+": "
     secret = getpass(string)
@@ -51,15 +56,17 @@ def create_mailing_list():
         print("There are no mails to be send.")
         return False
     
-    while True:
-        decision_YN = input("Continue? (Y/N) ").upper().strip()
-        
-        if decision_YN == "Y":
-            return mailing_list
-        elif decision_YN == "N":
-            return False
-        else:
-            print("Answer not recognised. Try again.")
+    if SETTINGS.CONFIRMATION:
+        while True:
+            decision_YN = input("Continue? (Y/N) ").upper().strip()
+
+            if decision_YN == "Y":
+                print("Please wait...")
+                return mailing_list
+            elif decision_YN == "N":
+                return False
+            else:
+                print("Answer not recognised. Try again.")
 
 def create_messages(mailing_list):
     with open('theMessagePlainText.txt','r',encoding='utf-8') as f:
@@ -161,6 +168,8 @@ def update_database(mailing_list):
     print("Database updated successfully.")
 
 def main():
+    if SETTINGS.INSTALL:
+        install()
     mailing_list = create_mailing_list()
     if not mailing_list: 
         return False

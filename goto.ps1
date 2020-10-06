@@ -1,1 +1,1 @@
-cd ..; cd ../users/mcj/dropbox/py/rmndr; python main.py
+cd ~; cd ./dropbox/py/rmndr; python main.py
